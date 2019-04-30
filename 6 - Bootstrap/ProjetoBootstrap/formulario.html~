@@ -1,0 +1,101 @@
+<!Doctype html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<title>Formulários</title>
+
+<!-- Bootstrap -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+<!-- CSS Personalizado -->
+		<link href="estilo.css" rel="stylesheet" />
+		
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/"></script>
+			<script src="https://oss.maxcdn.com/"></script>
+		<![endif] -->
+		
+	</head>
+	
+	<body>
+		
+		<div class="container">
+			
+			<div class="page-header">
+				<h1>Formulário Bootstrap</h1>
+			</div>
+			
+			<div class="row">
+				
+				<div class="col-sm-8">
+					<h3>Cadastre-se</h3>
+						<form>
+							
+							<div class="form-group">
+								<label for="nome">Nome</label>
+									<input type="text" class="form-control" id="nome" />
+							</div>
+							
+							<div class="form-group">
+								<label for="email">E-mail</label>
+									<input type="email" class="form-control" id="email" />
+							</div>
+							
+							<div class="form-group">
+								<label for="senha">Senha</label>
+									<input type="password" class="form-control" id="senha" />
+							</div>
+							
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" /> Aceita os Termos do Serviço?
+								</label>
+							</div>
+							
+							<div>
+								<label>
+									<input type="radio" name="opcoes" /> PHP
+								</label>
+							</div>
+							
+							<div>
+								<label>
+									<input type="radio" name="opcoes" /> Java
+								</label>
+							</div>
+							
+							<button type="submit" class="btn btn-primary">Cadastrar</button>
+							
+						</form>
+				</div>
+				
+				<div class="col-sm-4">
+					<h3>Logar</h3>
+					
+						<div class="form-group">
+							<input type="email" class="form-control" id="email" placeholder="Digite seu E-mail" />
+						</div>
+						
+						<div class="form-group">
+							<input type="password" class="form-control" id="senha" placeholder="Digite sua Senha" />
+						</div>
+						
+						<button type="submit" class="btn btn-primary"></button>
+				</div>
+
+			</div>
+			
+			
+		</div>
+
+<!-- jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Bootstrap Compiler -->
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		
+	</body>
+</html>

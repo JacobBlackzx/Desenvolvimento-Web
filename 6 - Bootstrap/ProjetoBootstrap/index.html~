@@ -1,0 +1,48 @@
+<!Doctype html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<title>Bootstrap</title>
+
+<!-- Bootstrap -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+<!-- CSS Personalizado -->
+		<link href="estilo.css" rel="stylesheet" />
+		
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/"></script>
+			<script src="https://oss.maxcdn.com/"></script>
+		<![endif] -->
+		
+	</head>
+	
+	<body>
+		
+		<div class="container marcador-2">
+			
+				<div class="row">
+				
+					<div class="col-xs-6 col-sm-10 col-md-2 marcador">
+						<h1>1</h1>
+					</div>
+					
+					<div class="col-xs-6 col-sm-2 col-md-10 marcador">
+						<h1>2</h1>
+					</div>
+					
+				</div>
+				
+		</div>
+
+<!-- jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Bootstrap Compiler -->
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		
+	</body>
+</html>

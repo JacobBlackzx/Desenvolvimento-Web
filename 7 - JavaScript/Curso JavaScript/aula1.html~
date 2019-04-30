@@ -1,0 +1,15 @@
+<!Doctype html>
+<html lang="pt-br">
+<head>
+	<title>Aula 1</title>
+	<meta charset="utf-8" />
+	<script type="text/javascript" >
+		alert('Teste de inclusão JavaScript');
+	</script>
+</head>
+
+<body>
+	
+</body>
+
+</html>

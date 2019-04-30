@@ -1,0 +1,138 @@
+<!Doctype html>
+<html lang="pt-br">
+	<head>
+		<title>IF ELSE</title>
+		<meta charset="utf-8"/>
+		
+		<script type="text/javascript" >
+			
+/*			// Condição Igual Igual (==)
+			if (2 == 2) {
+				document.write('Verdadeiro');
+			} else {
+				document.write('Falso');
+			}
+*/			
+/*			// Condição Idêntico (===)
+			if (2 === 2) {
+				document.write('Verdadeiro');
+			} else {
+				document.write('Falso');
+			}
+*/
+
+/*
+			// Condição Diferente
+			if (2 != 7.8) {
+				document.write('Verdadeiro');
+			} else {
+				document.write('Falso');
+			}
+*/
+
+/*
+			// Condição Menor (<)
+			if (2 < 5) {
+				document.write('Verdadeiro');
+			} else {
+				document.write('Falso');
+			}
+*/			
+
+/*
+			// Condição Maior (>)
+			if (10 > 5) {
+				document.write('Verdadeiro');
+			} else {
+				document.write('Falso');
+			}
+*/
+
+/*			
+			// Condição Menor ou Igual (<=)
+			if ( 20 <= 10) {
+				document.write('Verdadeiro');
+			} else {
+				document.write('Falso');
+			}
+*/
+
+/*			
+			// Condição Maior ou Igual (>=)
+			if (15 >= 25) {
+				document.write('Verdadeiro');
+			} else {
+				document.write('Falso');
+			}
+*/			
+
+/*			
+			var nota = prompt('Digite a nota do aluno:');
+			var media = 6;
+			
+			if (nota >= media) {
+				document.write('Aprovado');
+			} else {
+				document.write('Reprovado');
+			}
+*/			
+			// Operador E = && (true && false = false, true && true = true etc)
+			if (2 == 2 && 3 == 4) {
+				document.write('Verdadeiro');
+			} else {
+				document.write('Falso');
+			}
+			
+			// Operador Igual = || (true || true || true = true)
+			if (2 == 2 || 4 > 4 || 'a' === 'b') {
+				document.write('Verdadeiro');
+			} else {
+				document.write('Falso');
+			}
+			
+			// Operador Negativo = ! ()
+			if (!(3 == 2)) {
+				document.write('Verdadeiro');
+			} else {
+				document.write('Falso');
+			}
+			
+			
+		</script>
+				
+	</head>
+	
+	<body>
+		
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

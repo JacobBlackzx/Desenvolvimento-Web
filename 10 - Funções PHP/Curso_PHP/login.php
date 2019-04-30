@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Login PHP</title>
+		<meta charset="utf-8" />
+		
+	</head>
+	<body>
+		
+		<form method="post" action="valida_login.php">
+			<label>
+				Login:
+				<input type="text" name="login" />
+			</label>
+			
+			<label>
+				Senha:
+				<input type="password" name="senha" />
+			</label>
+			
+			<input type="submit" name="logar" />
+			
+		</form>
+		
+	</body>
+</html>

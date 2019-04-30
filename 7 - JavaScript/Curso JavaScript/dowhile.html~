@@ -1,0 +1,25 @@
+<!Doctype html>
+<html lang="pt-br">
+	<head>
+		<title>Do While</title>
+		<meta charset="utf-8" />
+		
+		<script type="text/javascript" >
+			// Declaração de variável
+			var x = 1;
+			
+			do {
+				// Comandos a serem repetidos
+				document.write( x + '<br />' );
+				x++;
+				
+			} while ( x <= 10 );
+		
+		</script>
+		
+	</head>
+	
+	<body>
+	
+	</body>
+</html>

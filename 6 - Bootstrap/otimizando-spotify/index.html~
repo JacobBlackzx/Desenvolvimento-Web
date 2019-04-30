@@ -1,0 +1,17 @@
+<!Doctype html>
+<html lang="pt-br">
+<head>
+	<title>Otimizando Spotify</title>
+	<meta charset="utf-8" />
+	
+	<link href="estilo.css" media="screen" rel="stylesheet" />
+	
+</head>
+
+<body>
+	<div class="item">
+		Texto texto texto texto texto texto texto texto texto.
+	</div>
+</body>
+
+</html>

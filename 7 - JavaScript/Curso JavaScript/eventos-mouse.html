@@ -1,0 +1,51 @@
+<!Doctype html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="utf-8" />
+		
+		<script type="text/javascript" >
+	
+			// Elemento Onclick (Ativo após clicar com o mouse no elemento)
+			function msgBoasVindas() {
+				alert('Seja Bem Vindo, ao clicar sobre o quadrado você fez uso do elemento Onclick!')
+			}
+			
+			// Elemento Ondblclick (Ativo ao executar duplo click com o mouse no elemento)
+			function msgBoasVindas() {
+				alert('Seja Bem Vindo, ao iniciar um duplo click sobre o quadrado você fez uso do elemento Ondblclick!')
+			}
+			
+			// Elemento Onmousedown (Ativo ao executar um click soutando ou não a tecla do mouse no elemento)
+			function msgBoasVindas() {
+				alert('Seja Bem Vindo, ao clicar sobre o quadrado você fez uso do elemento Onmousedown!')
+			}
+			
+			// Elemento Onmouseover ( Ativo quando o curso do mouse se sobre ponhe sobre o elemento)
+			function msgBoasVindas() {
+				alert('Seja Bem Vindo, ao se sobre por o curso do mouse sobre o elemento (o quadrado), você fez uso do elemento Omouseover!')
+			}
+			
+			// Elemento Onmouseout
+			function msgBoasVindas() {
+				alert('Seja Bem Vindo, ao sobre por o cursos do mouse e sair do elemento (o quadrado), você fez uso do elemento Onmouseout!')
+			}
+		
+		</script>
+		
+	</head>
+	
+	<body>
+		
+		<div onclick="msgBoasVindas()" style="background: #CCC; height: 150px; width: 150px;">Elemento Onclick</div>
+			<br>
+		<div ondblclick="msgBoasVindas()" style="background: #DDD; height: 160px; width: 160px;">Elemento Ondblclick</div>
+			<br>
+		<div onmousedown="msgBoasVindas()" style="background: #EEE; height: 170px; width: 170px;">Elemento Onmousedown</div>
+			<br>
+		<div onmouseover="msgBoasVindas()" style="background: #444; height: 180px; width: 180px;">Elemento Onmouseover</div>
+			<br>
+		<div onmouseout="msgBoasVindas()" style="background: #555; height: 190px; width: 190px;">Elemento Onmouseout</div>
+		
+	</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<title>JQuery Eventos - teclado</title>
+		<meta charset="utf-8" />
+		
+<!-- JQuery CDN -->
+		<script src="jquery-3.3.1.js" ></script>
+		
+		<script type="text/javascript" >
+			
+			$(document).ready( function () {
+				
+				// keydown
+				// keypress
+				// keyup
+
+// Keydown
+				$('#campo1').keydown( function () {
+					alert('O botão foi pressionado');
+				});
+				
+// Keypress
+				$('#campo1').keypress( function () {
+					alert('O botão foi pressionado mas não aceita teclas especiais Ctrl, Alt ...');
+				});
+				
+// Keyup
+				$('#campo1').keyup( function () {
+					alert('O botão foi pressionado e liberado');
+				});
+				
+			});
+						
+		</script>
+		
+	</head>
+	
+	<body>
+		
+		<input id="campo1" type="text" />
+		
+	</body>
+</html>

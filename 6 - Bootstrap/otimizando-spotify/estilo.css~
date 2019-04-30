@@ -1,0 +1,27 @@
+/*@media screen and (max-width: 768px) {
+	body {
+		background: blue;
+		color: black;
+	}
+}
+
+@media screen and (min-width: 767px) {
+	body {
+		background: red;
+		color: black;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	body {
+		background: orange;
+		color: black;
+	}
+}*/
+
+.item {
+	width: 200px;
+	height: 200px;
+	border: 2px solid black;
+	overflow: scroll;
+}

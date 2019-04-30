@@ -1,0 +1,38 @@
+####################################################################################
+#										   #
+#										   #
+#		HABILITAR FUNÇÕES PERSONALIZADAS DO PHP				   #
+#										   #
+####################################################################################
+
+
+# Acesse o arquivo padrão do PHP
+
+#vim php.ini
+
+
+###
+# Descomente os arquivos os arquivos abaixo:
+
+; short_open_tag=Off
+
+ short_open_tag= On
+
+; asp_tags=Off
+
+asp_tags=On
+
+
+###
+# Restart o serviço PHP
+
+
+systemctl restart php7.0-fpm.service
+
+services php7.0-fpm restart
+
+/etc/init.d/php7.0-fpm restart
+
+
+
+####################################################################################
