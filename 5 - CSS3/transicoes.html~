@@ -1,0 +1,23 @@
+<!Doctype html>
+<html lang="pt-br">
+	<title>Animação</title>
+	<meta charset="utf-8" />
+
+<!-- Normalize CSS -->
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	
+<!--  -->
+	<link rel="stylesheet" type="text/css" href="css/estilo.css" />
+	
+	<!--[if IE]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js" ></script>
+	<![endif]-->
+	
+	<body>
+		
+		<div id="box-transicao">
+			<h1>Transições</h1>
+		</div>
+		
+	</body>
+</html>

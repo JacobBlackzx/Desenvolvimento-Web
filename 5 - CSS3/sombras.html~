@@ -1,0 +1,24 @@
+<!Doctype html>
+<html lang="pt-br">
+	<head>
+		<title>Sombras</title>
+		<meta charset="utf-8" />
+		
+<!-- Normalize -->
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+
+<!-- Estilos CSS -->
+		<link rel="stylesheet" type="text/css" href="css/estilo.css" />
+
+		<!--[if IE]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+	</head>
+	
+	<body>
+		
+		
+		
+	</body>
+</html>
