@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Sobre a Empresa</title>
+		<meta charset="utf-8" />
+		
+	</head>
+	
+	<body>
+<!-- Tag Links -->
+
+		<h1>Pagina Sobre a Empresa</h1>
+			<a href="index.html" >Home |</a>
+			<a href="sobre-a-empresa.html" >Sobre a Empresa |</a>
+			<a href="contato.html" >Contato</a>
+	</body>
+</html>

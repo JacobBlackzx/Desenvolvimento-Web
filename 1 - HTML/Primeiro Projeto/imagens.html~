@@ -1,0 +1,15 @@
+<!Doctype html>
+<html lang="pt-br">
+	<head>
+		<title>Meu Site</title>
+		<meta charset="utf-8" />
+		
+	</head>
+	
+	<body>
+<!-- Tag de Imagens -->
+		
+		<img src="imagens/carro.png" height="200" width="400" alt="" />
+
+	</body>
+</html>

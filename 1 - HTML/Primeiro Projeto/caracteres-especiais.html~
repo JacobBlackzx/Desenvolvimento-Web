@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Caracteres Especiais</title>
+		<meta charset="utf-8" />
+		
+	</head>
+	
+	<body>
+		
+		Home | Quem Somos | Sobre a Empresa | Contato
+<hr />
+
+		<p>< 	less than 	&lt;</p>
+		<p>> 	greater than 	&gt;</p>
+		<p>& 	ampersand 	&amp;</p>
+		<p>" 	double quotation mark 	&quot;</p>
+		<p>' 	single quotation mark (apostrophe) 	&apos;</p>
+		<p>¢ 	cent 	&cent;</p>
+		<p>£ 	pound 	&pound;</p>
+		<p>¥ 	yen 	&yen;</p>
+		<p>€ 	euro 	&euro;</p>
+		<p>© 	copyright 	&copy;</p>
+		<p>® 	registered trademark 	&reg;</p>
+		
+		
+	</body>
+</html>

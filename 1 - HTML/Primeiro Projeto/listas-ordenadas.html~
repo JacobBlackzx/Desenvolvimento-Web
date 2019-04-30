@@ -1,0 +1,19 @@
+<!Doctype html>
+<html lang="pt-br">
+	<head>
+		<title>Meu Site</title>
+		<meta charset="utf-8" />
+		
+	</head>
+	
+	<body>
+<!-- Tag Listas Ordenadas --> 
+		
+		<h1>Perguntas</h1>
+			<ol>
+				<li>Comida Favorita</li>
+				<li>Bebida Favorita</li>
+				<li>Doce Favorito</li>
+			</ol>
+	</body>
+</html>

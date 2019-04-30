@@ -1,0 +1,19 @@
+<!Doctype html>
+<html lang="pt-br">
+	<head>
+		<title>Meu Site</title>
+		<meta charset="utf-8" />
+		
+	</head>
+	
+	<body>
+<!-- Tag Listas não Ordenadas --> 
+		
+		<ul>
+			<li>Notebook</li>
+			<li>Roteador</li>
+			<li>Vídeo Game</li>
+		</ul>
+		
+	</body>
+</html>
