@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<title>Bordas</title>
+	<meta charset="utf-8" />
+	
+	<style type="text/css">
+		
+		div {
+		/*	border: 2px blue solid;*/
+			border-color: red green yellow blue;
+			border-width: 2px;
+			border-style: solid;
+		}
+		
+	</style>
+	
+	<body>
+		<div>
+			Conteúdo
+		</div>
+	</body>
+	
+</html>

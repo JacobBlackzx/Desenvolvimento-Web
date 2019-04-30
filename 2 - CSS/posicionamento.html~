@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Posicionamento</title>
+		<meta charset="utf-8" />
+		
+		<style type="text/css">
+		
+			body{
+				background: #61BD8C;
+			}
+			
+			#conteudo-principal{
+				background: #FFFFFF;
+				padding: 10px;
+				width: 600px;
+				height: 2500px;
+				margin: 30px auto;
+				
+			}
+			
+			.caixa{
+				background: #1E6F44;
+				width: 100px;
+				height: 100px;
+				color: #FFFFFF;
+			}
+			
+			#relativo{
+				position: relative;
+				left: -30px;
+				top: 0;
+				width: 660px;
+			}
+			
+			#absoluto{
+				position: absolute;
+				bottom: 0;
+				right: 30px;
+			}
+			
+			#fixo{
+				position: fixed;
+				top: 0;
+				left: 0;
+				width: 100%;
+				background: #000;
+			}
+		
+		</style>
+		
+	</head>
+	
+	<body>
+		
+		<div id="conteudo-principal">
+			<h1>Posicionamento</h1>
+			
+			<h4>Relativo</h4>
+				<div id="relativo" class="caixa">Relativo</div>
+		
+			<h4>Absoluto</h4>
+				<div id="absoluto" class="caixa">Absoluto</div>
+		
+			<h4>Fixo</h4>
+				<div id="fixo" class="caixa">Fixo</div>
+		
+		</div>
+		
+	</body>
+</html>

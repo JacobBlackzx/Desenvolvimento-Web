@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Meu Site CSs</title>
+		<meta charset="utf-8" />
+		
+<!-- Seletores CSS -->
+
+		<style type="text/css">
+
+			p {
+				color: blue;
+				border: 2px solid blue;
+			}
+
+			.paragrafo {
+							color: green;
+			}
+			
+			#verde {
+					color: green;
+			}
+		</style>
+		
+	</head>
+	
+	<body>
+		<h1 id="verde">Estilo CSS (Cascading Style Sheets)</h1>
+		
+<!--		Estilo inline <p style="color: red; border: 2px solid blue;"> -->
+<!-- Classe CSS .paragrafo class="paragrafo" -->
+<!-- ID #verde  id="verde"-->
+		
+		<p class="paragrafo">
+			Texto texto texto texto texto texto texto texto texto
+			texto texto texto texto texto texto texto texto texto
+			texto texto texto texto texto texto texto texto texto
+			texto texto texto texto texto texto.</p>
+			
+		<h1>Estilo CSS (Cascading Style Sheets)</h1>
+		
+		<p>
+			Texto texto texto texto texto texto texto texto texto
+			texto texto texto texto texto texto texto texto texto
+			texto texto texto texto texto texto texto texto texto
+			texto texto texto texto texto texto.</p>
+			
+		<h1>Estilo CSS (Cascading Style Sheets)</h1>
+		
+		<p>
+			Texto texto texto texto texto texto texto texto texto
+			texto texto texto texto texto texto texto texto texto
+			texto texto texto texto texto texto texto texto texto
+			texto texto texto texto texto texto texto texto texto
+			texto texto texto texto texto texto texto texto texto
+			texto texto texto texto texto texto texto texto texto
+			texto texto texto texto texto texto texto texto texto
+			texto texto texto texto texto texto.</p>
+		
+	</body>
+</html>

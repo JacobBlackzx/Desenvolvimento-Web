@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Links</title>
+		<meta charset="utf-8" />
+		
+		<style type="text/css">
+		
+		/* Função para retirar a link de link */
+		
+		a{
+			text-decoration: none;
+			padding: 5px;
+		}
+		
+		/* Links não Visitados */
+		
+		a:link{
+			color: #B9C941;
+		}
+		
+		/* Links Visitados */
+		
+		a:visited{
+			color: #C0C0C0;
+		}
+		
+		/* Links Houver, passa-se o curso sobre o link */
+		
+		a:hover{
+			color: #FFF;
+			background: #6D790F; 
+		}
+		
+		/* Link Ativos */
+		
+		a:active{
+			color: #E4F371;
+		}
+		
+		/*  */
+		
+		</style>
+	</head>
+	
+	<body>
+		<a href="http://www.google.com" >Google</a> |
+		<a href="http://www.youtube.com" >YouTube</a> |
+		<a href="http://www.megacurioso.com.br" >Mega Curioso</a>
+	</body>
+</html>
